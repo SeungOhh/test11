@@ -1,25 +1,10 @@
 body {
-    margin: 0;
-    overflow: hidden;
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-  }
-  canvas {
-    display: block;
-  }
-  #score {
-    position: absolute;
-    top: 50px;
-    left: 10px;
-    font-size: 20px;
-    font-weight: bold;
-    color: #333;
-  }
-  #myname {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    font-size: 20px;
-    font-weight: bold;
-    color: #333;
-  }
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #f4f4f4;
+  margin: 0;
+}
+button {
+  padding: 10px 20px; margin: 5px; border: none; background: #007bff; color: #fff; border-radius: 5px;
+}
+button:hover { background: #0056b3; }
